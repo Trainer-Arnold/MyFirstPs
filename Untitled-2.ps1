@@ -8,7 +8,7 @@ $optie = Read-Host -Prompt "Wil je checken of het bestand er is?"
 
 
 If ($optie -eq 1){
-
+    Get-WmiObject -Class Win32_Product | Where vendor -eq Vendor | Select Name, Version
 }
 
 elseif ($optie -eq 2) {
@@ -19,4 +19,5 @@ elseif ($optie -eq 2) {
 else {
     Write-Host "fuck you" -ForegroundColor Cyan
 }
+
 
