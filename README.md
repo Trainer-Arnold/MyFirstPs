@@ -1,5 +1,5 @@
-# MyFirstPs
+# Untitled-2.ps1
 
+Finds a specific file
 
-
-Script is still unfinished but when it's done it should let you find a specific file on your computer.
+176619
